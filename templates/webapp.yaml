@@ -71,7 +71,7 @@ spec:
         tier: web
     spec:
       containers:
-      - image: wordpress
+      - image: wordpress # replace wordpress with newesissrl.azurecr.io/newesis-anniversary:year.2
         name: wordpress
         livenessProbe:
           httpGet:
