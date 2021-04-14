@@ -16,9 +16,8 @@ namespace:
         pod: 5
 app:
     name: webappdemo
-    hostname: webappdemo.mydomain.com
+    hostname: webapp.argocd.demo.newesis.com
 database:
     disk: 4Gi
-    password: YW55cGFzc3dvcmR5b3VsaWtl
 issuer:
     name: letsencrypt-production
