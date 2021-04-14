@@ -19,5 +19,6 @@ app:
     hostname: webapp.argocd.demo.newesis.com
 database:
     disk: 4Gi
+    password: anypassword
 issuer:
     name: letsencrypt-production
